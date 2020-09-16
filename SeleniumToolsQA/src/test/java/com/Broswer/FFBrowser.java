@@ -10,8 +10,10 @@ public class FFBrowser {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\mkavy\\git\\SeleniumPractice\\SeleniumToolsQA\\src\\test\\java\\com\\BrowserJars\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		driver.get("https://www.shop.demoqa.com");
+		driver.get("https://demoqa.com/automation-practice-form");
 		System.out.println("Successfully lanched the URL");
+		driver.close();
+		driver.quit();
 		
 
 	}
